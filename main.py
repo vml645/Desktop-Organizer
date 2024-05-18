@@ -57,3 +57,4 @@ for i in range(num_clusters):
             src_path = os.path.join(screenshots_dir, image_file)
             dst_path = os.path.join(folder_path, image_file)
             shutil.move(src_path, dst_path)
+
